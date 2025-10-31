@@ -9,6 +9,10 @@ body {
   font-weight: 400;
 }
 
+header, main {
+    max-width: 1200px;
+}
+
 nav{
     background-color: rgb(51,51,51);
     color: #eee;
@@ -43,6 +47,8 @@ nav a:hover {
 h1{
     text-align: center;
     font-weight: 700;
+    grid-column: 1 / -1;  
+    margin: 0 0 0.5rem 0;
 }
 
 main {
@@ -50,14 +56,8 @@ main {
   grid-template-columns: 1fr auto; 
   gap: 1rem;         
   align-items: start;
-  max-width: 1200px;
   margin: 0 auto;
   padding: 1rem;
-}
-
-h1 {
-  grid-column: 1 / -1;  
-  margin: 0 0 0.5rem 0;
 }
 
 .card {
