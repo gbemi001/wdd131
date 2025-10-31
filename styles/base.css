@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+
+nav{
+    background-color: rgb(51,51,51);
+    color: #eee;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 0;
+}
+
+nav a {
+    color: #eee;
+    padding: 1rem;
+    display: block;
+    text-decoration: none;
+    font-weight:500
+}
+
+nav a:hover {
+    color: red;
+}
+
+#course-title{
+    background-color: rgb(29,77,114);
+    display: block;
+    padding: 1.5rem;
+    color: #eee;
+    margin-bottom: 0;
+    text-align: center;
+    font-weight: 700;
+}
+
+h1{
+    text-align: center;
+    font-weight: 700;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr auto; 
+  gap: 1rem;         
+  align-items: start;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+h1 {
+  grid-column: 1 / -1;  
+  margin: 0 0 0.5rem 0;
+}
+
+.card {
+  background: #fff;       
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  height: 100%;
+}
+
+.card img {
+  float: right;
+  width: 150px;
+  height: auto;
+  padding: 0.5rem;
+  margin-left: 1rem;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.about-me p {
+    margin-top: 2rem;
+    padding: 1rem;
+    line-height: 1.6;
+}
+
+h2 {
+    margin-bottom: 0.5rem;
+    text-align: center;
+    font-weight: 600;
+    background-color: rgb(29,77,114);
+    color: #eee;
+    padding: 1rem
+}
+
+h3 {
+   text-align: center;
+    margin-bottom: 0.2rem;
+}
+
+hr {
+    width: 50%;
+    margin: 0 auto 1rem auto;
+}
+
+.flag {
+  display: block; 
+  text-align: center;
+  margin: 0.5rem; 
+  float: left;      
+}
+
+.flag img {
+  display: block;        
+  margin: 0 auto;
+  width: 100px;          
+}
+
+.flag figcaption {
+  display: block;
+  margin-top: 0.4rem;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.location p {
+    width: 80%;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 1.5rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+ul li {
+    font-style: italic;
+}
+
+.resources h2 {
+    margin-bottom: 80px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(29,77,114);
+    color: #eee;
+    text-align: center;
+    padding: 1rem;
+    margin-bottom: 0;
+}

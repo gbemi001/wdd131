@@ -3,10 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>WDD 131 - Dynamic Web Fundamentals - Oluwagbemi Yoloye</title>
+    <meta name="description" content="Oluwagbemi Yoloye's WDD 131 Course Landing Page">
+    <meta name="author" content="Oluwagbemi Yoloye">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/getdates.js" defer></script>
 </head>
 <body>
-    <h1>Hello, World!</h1>
-    <p>This is a sample HTML document.</p>
+    <header>
+        <span id="course-title">WDD 131- Dynamic Web Fundamentals</span>
+        <nav>
+            <a href="https://www.linkedin.com/in/oluwagbemi-yoloye-539a49aa/">LinkedIn</a>
+            <a href="https://byupw.instructure.com/">Canvas</a>
+            <a href="https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/19?lang=eng&id=p38#p38">Scripture</a>
+            <a href="#">Final Project</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Oluwagbemi Yoloye</h1>
+        <section class="card">
+            <div class="about-me">
+                <h2>About Me</h2>
+                <img src="images/profile.jpeg" alt="Oluwagbemi Yoloye Profile Picture">
+                <p>Hello! My name is Oluwagbemi Yoloye. I was born in Nigeria, and live with my family in the Northern part of Nigeria. I currently work as a Technical Support Specialist for Springboard. I am excited to further my knowledge in web development and design.</p>
+            </div>
+            <div class="location">
+                <h3>Kaduna, Nigeria</h3>
+                <hr>
+                <div class="flag">
+                    <figure>
+                        <img src="images/nigeria_flag.png" alt="Nigeria Flag">
+                        <figcaption>Flag of Nigeria</figcaption>
+                    </figure>
+                </div>
+                <p>Nigeria is the most populous country in Africa, known for its cultural diversity and vibrant music and film industries. It has a rich history with over 250 ethnic groups and many languages, with English as the official language. Nigeria's economy is one of the largest on the continent, driven by oil, agriculture, and a growing tech sector. Cities like Lagos and Abuja are major economic and cultural hubs.</p>
+            </div>
+        </section>
+        <section class="card resources">
+            <h2>Web Dev Resources</h2>
+            <ul>
+                <li><a href="https://dev.to/">Dev.to Community</a></li>
+                <li><a href="https://www.smashingmagazine.com/">Smashing Magazine</a></li>
+                <li><a href="https://css-tricks.com/">CSS Tricks</a></li>
+                <li><a href="https://www.w3.org/">W3C</a></li>
+                <li><a href="https://www.udemy.com/">Udemy</a></li>
+                <li><a href="https://www.imageplaceholder.com/">Image Placeholder</a></li>
+            </ul>
+        </section>
+    </main>
 </body>
+<footer>
+    <div class="footer-content">
+        <p>&copy; <span id="current-year"></span> *** Oluwagbemi Yoloye *** Nigeria</p>
+        <p id="lastModified"></p>
+    </div>
+</footer>
 </html>
