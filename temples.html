@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="description" content="A responsive picture album page that utilizes a 'hamburger' menu and responds to user requests.">
+    <meta name="author" content="Oluwagbemi Yoloye">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/temples.css">
+    <link rel="stylesheet" href="styles/temples-large.css">
+    <script src="scripts/temples.js" defer></script>
+</head>
+<body>
+    <header>
+        <p>Temple Album</p>
+        <nav>
+            <ul class="navigation">
+                <li><a href="#temple1">Home</a></li>
+                <li><a href="#temple2">Old</a></li>
+                <li><a href="#temple3">New</a></li>
+                <li><a href="#temple4">Large</a></li>
+                <li><a href="#temple5">Small</a></li>
+            </ul>
+        </nav>
+        <button type="button" id="menu"></button>
+    </header>
+    <main>
+        <h1>Home</h1>
+        <section>
+            <div class="temple-gallery">
+                <figure id="temple1" class="temple">
+                    <img src="images/arequipa_temple.jpeg" alt="Arequipa Temple">
+                    <figcaption>Arequipa, Peru</figcaption>
+                </figure>
+                <figure id="temple2" class="temple">
+                    <img src="images/calgary_temple.jpg" alt="Calgary Temple">
+                    <figcaption>Calgary, Canada</figcaption>
+                </figure>
+                <figure id="temple3" class="temple">
+                    <img src="images/aba_temple.jpg" alt="Aba Temple">
+                    <figcaption>Aba, Nigeria</figcaption>
+                </figure>
+                <figure id="temple4" class="temple">
+                    <img src="images/buenos_airies_temple.jpg" alt="Buenos Aires Temple">
+                    <figcaption>Buenos Aires, Argentina</figcaption>
+                </figure>
+                <figure id="temple5" class="temple">
+                    <img src="images/fukuoka_temple.jpg" alt="Fukuoka Temple">
+                    <figcaption>Fukuoka, Japan</figcaption>
+                </figure>
+                <figure id="temple6" class="temple">
+                    <img src="images/london_temple.jpg" alt="London Temple">
+                    <figcaption>London, England</figcaption>
+                </figure>
+                <figure id="temple7" class="temple">
+                    <img src="images/campinas_temple.jpg" alt="Campinas Temple">
+                    <figcaption>Campinas, Brazil</figcaption>
+                </figure>
+                <figure id="temple8" class="temple">
+                    <img src="images/tijuana_mexico.jpg" alt="Tijuana Temple">
+                    <figcaption>Tijuana, Mexico</figcaption>
+                </figure>
+                <figure id="temple9" class="temple">
+                    <img src="images/bern_temple.jpg" alt="Bern Temple">
+                    <figcaption>Bern, Switzerland</figcaption>
+                </figure>
+            </div>  
+        </section>
+    </main>
+    <footer>
+        <p>&copy;<span id="current-year"></span> *** Oluwagbemi Yoloye *** Nigeria</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
