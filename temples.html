@@ -17,7 +17,7 @@
     <header>
         <p>Temple Album</p>
         <nav>
-            <ul class="navigation">
+            <ul id="main-nav" class="navigation">
                 <li><a href="#temple1">Home</a></li>
                 <li><a href="#temple2">Old</a></li>
                 <li><a href="#temple3">New</a></li>
@@ -25,7 +25,11 @@
                 <li><a href="#temple5">Small</a></li>
             </ul>
         </nav>
-        <button type="button" id="menu" name="menu button"></button>
+        <button type="button" id="menu" 
+            aria-label="Toggle navigation"
+            aria-controls="main-nav"
+            aria-expanded="false">
+        </button>
     </header>
     <main>
         <h1>Home</h1>

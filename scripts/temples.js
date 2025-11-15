@@ -1,4 +1,4 @@
-const mainNav = document.querySelector('.navigation')
+const mainNav = document.querySelector('#main-nav')
 const hamButton = document.querySelector('#menu');
 const header = document.querySelector('header');
 
@@ -6,6 +6,7 @@ hamButton.addEventListener('click', () => {
 	mainNav.classList.toggle('show');
     header.classList.toggle('menu-open');
 	hamButton.classList.toggle('show');
+	hamButton.setAttribute('aria-expanded', String(hamButton.classList.contains('show')));
 });
 
 
