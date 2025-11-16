@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A place to be</title>
+    <meta name="description" content="A place to know, visit, and make lifetime memories. Somewhere unforgettable!">
+    <meta name="author" content="Oluwagbemi Yoloye">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <script src="scripts/place.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Nigeria</h1>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="hero_images">
+                <picture>
+                    <source srcset="images/hero_large.webp" media="(min-width: 1000px)">
+                    <source srcset="images/hero_medium.webp" media="(min-width: 350px)">
+                    <img src="images/hero_small.webp" alt="A beautiful representation of Nigeria">
+                </picture>
+                <div class="data">
+                    <h2>Data</h2>
+                    <ul>
+                        <li>Area:923,768 km²</li>
+                        <li>Population: 232 million</li>
+                        <li>Capital: Abuja</li>
+                        <li>Languages: English, Hausa, Igbo, Yoruba</li>
+                        <li>Currency: Naira</li>
+                        <li>Timezone: GMT+1</li>
+                        <li>Calling Code: +234</li>
+                        <li>Internet TLD: .ng</li>
+                    </ul>
+                </div>
+                <div class="weather">
+                    <div class="weather-header">
+                        <h2>Weather</h2>
+                        <picture>
+                            <source srcset="images/sunny_clouds_icon.svg" media="(min-width: 1000px)">
+                            <source srcset="images/sandstorm_sun_icon.svg" media="(min-width: 200px)">
+                            <img src="images/sandstorm_sun_icon.svg" alt="Weather icon">
+                        </picture>
+                    </div>
+                    <ul>
+                        <li>Temperature: 10°C</li>
+                        <li>Conditions: Partly Cloudy</li>
+                        <li>Wind: 5 km/h</li>
+                        <li id="windchill">Wind Chill: </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <p>&copy;<span id="current-year"></span> *** Oluwagbemi Yoloye *** Nigeria</p>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+</body>
+</html>
