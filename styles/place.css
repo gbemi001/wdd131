@@ -74,6 +74,7 @@ h2 {
   text-align: center;
   margin-bottom: 1rem;
   padding: 1rem;
+  color: rgb(000, 0, 0);
 }
 
 .footer {
@@ -92,4 +93,5 @@ h2 {
 
 .footer p {
   font-weight: 600;
+  color: rgb(000, 0, 0);
 }
