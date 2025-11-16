@@ -40,6 +40,12 @@
     max-width: 50px;
   }
 
+  .weather-header::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
   .weather-header {
     position: relative;
   }
@@ -53,18 +59,15 @@
   h2 {
     background-color: rgb(36,124,79);
     padding: 1rem;
-    color: rgb(235, 220, 220);
+    color: rgb(0, 0, 0);
     margin-left: -20px;
     margin-right: 20px;
     margin-bottom: 0;
     text-align: left;
   }
 
-  section {
+  section, footer {
     margin: 0;
   }
 
-  footer {
-    margin: 0;
-  }
 }
