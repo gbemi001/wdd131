@@ -80,7 +80,7 @@ h2 {
 .footer {
   display: flex;
   background-color: rgb(36,124,79);
-  color: var(--color);
+  color: rgb(000, 0, 0);
   text-align: center;
   padding: 1rem;
   max-width: 350px;
@@ -93,5 +93,4 @@ h2 {
 
 .footer p {
   font-weight: 600;
-  color: rgb(000, 0, 0);
 }
