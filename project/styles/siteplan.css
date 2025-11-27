@@ -23,7 +23,7 @@ header, main, footer {
 }
 
 h1, h2, h3 {
-    color: #0b3d91;
+    color: #0d8711;
     margin-top: 1rem;
     margin-bottom: 0.5rem;
 }
@@ -39,7 +39,7 @@ p, li {
     margin-top: 10px;
     font-family: monospace;
     white-space: pre;
-    color: #07a50c;
+    color: #0b4ec1;
 }
 
 div {
