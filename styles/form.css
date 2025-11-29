@@ -8,7 +8,7 @@ body {
   font-weight: 400;
 }
 :root {
-  --color: rgba(255, 255, 255, 1);
+  --color: rgb(255, 255, 255);
   --background-color: rgb(29, 77, 114);
 }
 
@@ -39,7 +39,7 @@ main {
 .form input[type="radio"] {
   display: none;
 	position: relative;
-	caret-color: rgba(0, 0, 0, 0);
+	caret-color: rgb(0, 0, 0);
 }
 
 .form input[type="checkbox"] {
@@ -98,17 +98,17 @@ footer {
 }
 
 .stars > label {
-	color: gold;
+	color: rgb(255, 215, 0);
 	width: 30px;
 	height: 30px;
 	font-size: 2rem;
 	display: flex;
 	align-items: center;
-	caret-color: rgba(0, 0, 0, 0); /* remove blinking cursor*/
+	caret-color: rgb(0, 0, 0, 0); /* remove blinking cursor*/
 }
 
 .stars > label:hover {
-	color: #000;
+	color: rgb(000, 000, 000);
 }
 
 .stars > label::before {
