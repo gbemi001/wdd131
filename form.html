@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Review Form</title>
+    <meta name="description" content="A user friendly and responsive product review form page with good form design, specific field requirements, and a submission confirmation with a counter">
+    <meta name="author" content="Oluwagbemi Yoloye">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/form.css">
+    <script src="scripts/form.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Product Review</h1>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="form">
+                <form method="get" action="review.html">
+
+                    <div>
+                        <p>Product Name:</p>
+                        <select name="product" id="product" required>
+                            <option value="" disabled selected>Select a product</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label>Overall Rating</label>
+                        <div class="stars">
+                            <input type="radio" id="fivestar" name="stars" value="5" required><label for="fivestar"></label>
+                            <input type="radio" id="fourstar" name="stars" value="4" required><label for="fourstar"></label>
+                            <input type="radio" id="threestar" name="stars" value="3" required><label for="threestar"></label>
+                            <input type="radio" id="twostar" name="stars" value="2" required><label for="twostar"></label>
+                            <input type="radio" id="onestar" name="stars" value="1" required><label for="onestar"></label>
+                        </div>
+                    </div>
+
+                    <div>
+                        <p>Date of Installation:</p>
+                        <input type="date" id="date" name="date" required>
+                    </div>
+
+                    <div class="features">
+                        <p>Which features did you find useful in the product?</p>
+                        <p> (Check all that apply)</p>
+                        <label for="feature 1"><input type="checkbox" id="feature 1" name="features">Design</label>
+                        <label for="feature 2"><input type="checkbox" id="feature 2" name="features" >Durability</label>
+                        <label for="feature 3"><input type="checkbox" id="feature 3" name="features">Ease of Use</label>
+                        <label for="feature 4"><input type="checkbox" id="feature 4" name="features">Performance</label>
+                    </div>
+
+                    <div>
+                        <p>Written Review (Optional)</p>
+                        <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Write your comments here..."></textarea>
+                    </div>
+
+                    <div>
+                        <p>Your Name (Optional)</p>
+                        <input type="text" id="name" name="name" placeholder="Enter your name">
+                    </div>
+
+                    <div>
+                        <input type="submit" id="submitBtn" value="Post Review">
+                    </div>
+
+                </form>
+            </div>   
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <p>&copy;2025<span id="current-year"></span> *** Oluwagbemi Yoloye *** Nigeria</p>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+</body>
+</html>
