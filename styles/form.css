@@ -56,9 +56,9 @@ main {
   border-radius: 4px;
 }
 
-.features label {
+.features label, .product label, .date label {
   display: block;
-  padding-bottom: 1rem;
+  padding-bottom: 0.5rem;
 }
 
 .form input[type="submit"] {
