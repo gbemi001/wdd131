@@ -74,7 +74,8 @@ nav.primary a{
   margin-left:12px;
   text-decoration:none;
   color:var(--deep-blue);
-  font-weight:600
+  font-weight:600;
+  padding: 6px 8px;
 }
 
 main{
