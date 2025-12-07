@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Naija Premier League Hub — Home</title>
+  <meta name="description" content="Naija Premier League Hub provides club profiles, fixtures, and news for Enyimba FC, Remo Stars FC, and Kano Pillars FC.">
+  <meta name="author" content="Oluwagbemi Yoloye">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/styles.css">
+  <script src="scripts/script.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <header class="site-header">
+      <div class="brand">
+        <div class="logo">NPFL</div>
+        <div>
+          <div class="site-title">Naija Premier League Hub</div>
+          <div class=".site-subtitle">Enyimba • Remo Stars • Kano Pillars</div>
+        </div>
+      </div>
+      <nav class="primary">
+        <a href="index.html">Home</a>
+        <a href="clubs.html">Clubs</a>
+        <a href="fixtures.html">Fixtures & News</a>
+      </nav>
+    </header>
+
+    <main role="main">
+      <section class="hero">
+        <img class="banner" src="images/npfl_action.jpg" alt="NPFL action: fans and players" loading="lazy">
+        <div class="intro card" id="intro">
+          <h1 id="hero-heading">Welcome to the Naija Premier League Hub</h1>
+          <p>Your reliable source of information about Enyimba FC, Remo Stars FC, and Kano Pillars FC. Explore club histories, and upcoming fixtures.</p>
+          <form id="subscribe-form" class="subscribe">
+            <label for="email" style="display:none">Email</label>
+            <input id="email" name="email" type="email" placeholder="Enter your email to subscribe" required>
+            <button class="btn" type="submit">Subscribe</button>
+          </form>
+        </div>
+      </section>
+
+      <section id="club-of-day"></section>
+
+      <section class="card">
+        <h2>League Facts</h2>
+        <ul>
+          <li>NPFL is Nigeria's top professional league and a major source of talent for national and continental competitions.</li>
+          <li>The three featured clubs represent historical (Enyimba), rising (Remo Stars), and passionate fan-base (Kano Pillars) narratives in Nigerian football.</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div>© 2025 Naija Premier League Hub *** Oluwagbemi Yoloye *** Nigeria</div>
+      <p id="lastModified"></p>
+    </footer>
+  </div>
+</body>
+</html>

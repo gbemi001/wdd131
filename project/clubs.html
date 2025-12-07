@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Naija Premier League Hub — Clubs</title>
+  <meta name="description" content="Profiles and histories of Enyimba FC, Remo Stars FC, and Kano Pillars FC with interactive club sections.">
+  <meta name="author" content="Oluwagbemi Yoloye">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/styles.css">
+  <script src="scripts/script.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <header class="site-header">
+      <div class="brand">
+        <div class="logo">NPFL</div>
+        <div>
+          <div class="site-title">Naija Premier League Hub</div>
+          <div class=".site-subtitle">Club Profiles</div>
+        </div>
+      </div>
+      <nav class="primary" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="clubs.html">Clubs</a>
+        <a href="fixtures.html">Fixtures & News</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="card">
+        <h1>Featured Clubs</h1>
+        <p>Explore the history, stadiums, achievements, and notable facts about each club below. Click a club to expand its profile.</p>
+      </section>
+
+      <section id="clubsSection" class="card">
+        <div class="club-card" data-club="enyimba">Enyimba FC</div>
+        <div class="club-card" data-club="remo">Remo Stars SC</div>
+        <div class="club-card" data-club="kano">Kano Pillars FC</div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div>© 2025 Naija Premier League Hub *** Oluwagbemi Yoloye *** Nigeria.</div>
+      <p id="lastModified"></p>
+    </footer>
+  </div>
+
+  <div id="clubModal" class="modal hidden">
+        <div class="modal-content">
+            <span id="closeClubModal" class="close">&times;</span>
+            <h2 id="clubName"></h2>
+            <p id="clubHistory"></p>
+            <p id="clubAchievements"></p>
+            <p id="clubStadium"></p>
+        </div>
+    </div>
+</body>
+</html>
