@@ -71,11 +71,18 @@ header.site-header{
 }
 
 nav.primary a{
-  margin-left:12px;
-  text-decoration:none;
-  color:var(--deep-blue);
-  font-weight:600;
-  padding: 8px 12px;
+  display: inline-block;
+  padding: 12px 18px;     
+  margin-right: 8px;       
+  text-decoration: none;
+  color: var(--deep-blue);
+  font-weight: 600;
+  border-radius: 6px;
+}
+
+nav.primary a:hover{
+  background:var(--deep-blue);
+  color:#fff;
 }
 
 main{
@@ -307,5 +314,13 @@ button.secondary{
   }
   .grid-2{
     grid-template-columns:repeat(2,1fr)
+  }
+}
+
+@media (max-width: 600px) {
+  nav a {
+    padding: 14px 20px;
+    margin-right: 6px;
+    font-size: 1rem;
   }
 }
